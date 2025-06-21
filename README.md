@@ -1,4 +1,4 @@
-**SQLite Editor v0.7 e**
+**SQLite Editor v0.7 f**
 
 **"SQLite Based Backend Platform -- from MS-Access transfer to Python"**
 
@@ -17,7 +17,7 @@ Microsoft Access is a rapid-application platform that bundles:
 What most Access solutions really need, however, is only the data layer
 -- the tables, queries and very light-weight import/export or
 printing.  
-SQLiteEditorApp_V07e.py intentionally limits its scope to that *backend*
+SQLiteEditorApp_V07f.py intentionally limits its scope to that *backend*
 part and replaces it with:
 
 | **Layer**       | **MS Access**             | **This project**                            |
@@ -55,7 +55,7 @@ to distribute, but easy to split later (MVC).
 
 **2. MS Access vs. SQLite Editor -- pros & cons**
 
-| **Topic**                 | **MS Access (ACE)**                                                          | **SQLite Editor v0.7e**                                                                                 |
+| **Topic**                 | **MS Access (ACE)**                                                          | **SQLite Editor v0.7f**                                                                                 |
 |---------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | License & cost            | Proprietary, Office license                                                  | MIT-style (Python & Qt licence). Free.                                                                  |
 | Platforms                 | Windows only                                                                 | Windows, macOS, Linux, even Raspberry Pi                                                                |
@@ -103,11 +103,11 @@ venv\Scripts\activate \# Windows
 
 source venv/bin/activate \# mac / linux
 
-Download SQLiteEditorApp_V07e.py and run:
+Download SQLiteEditorApp_V07f.py and run:
 
 bash
 
-python SQLiteEditorApp_V07e.py
+python SQLiteEditorApp_V07f.py
 
 **4. Operating the program -- step-by-step**
 

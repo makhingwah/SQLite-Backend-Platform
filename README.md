@@ -1,4 +1,4 @@
-**SQLite Editor v0.7 f**
+**SQLite Editor v0.7 g**
 
 **"SQLite Based Backend Platform -- from MS-Access transfer to Python"**
 
@@ -17,7 +17,7 @@ Microsoft Access is a rapid-application platform that bundles:
 What most Access solutions really need, however, is only the data layer
 -- the tables, queries and very light-weight import/export or
 printing.  
-SQLiteEditorApp_V07f.py intentionally limits its scope to that *backend*
+SQLiteEditorApp_V07g.py intentionally limits its scope to that *backend*
 part and replaces it with:
 
 | **Layer**       | **MS Access**             | **This project**                            |
@@ -103,22 +103,22 @@ venv\Scripts\activate \# Windows
 
 source venv/bin/activate \# mac / linux
 
-Download SQLiteEditorApp_V07f.py and run:
+Download SQLiteEditorApp_V07g.py and run:
 
 bash
 
-python SQLiteEditorApp_V07f.py
+python SQLiteEditorApp_V07g.py
 
 **4. Operating the program -- step-by-step**
 
 **4.1 Create / open a database**
 
-1.  File → **Create Database** → choose a filename (\*.db).  
+1.  Click → **Create Database** → choose a filename (\*.db).  
     The app connects immediately.
 
-2.  File → **Open Database** to reconnect an existing file.
+2.  Click → **Open Database** to reconnect an existing file.
 
-3.  File → **Close Database** releases the connection (Schema/Data tabs
+3.  Click → **Close Database** releases the connection (Schema/Data tabs
     are cleared).
 
 **4.2 Design tables with the Schema Editor**
